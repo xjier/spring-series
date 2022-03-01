@@ -6,8 +6,8 @@ public class Client {
 
     public static void main(String[] args) {
         //1.bean配置文件位置
-        String beanXml = "classpath:/com/javacode/lesson001/demo1/bean.xml";
-        //String beanXml = "classpath:/beans.xml";
+        //String beanXml = "classpath:/com/javacode/lesson001/demo1/bean.xml";
+        String beanXml = "classpath:/beans.xml";
         //2.创建ClassPathXmlApplicationContext容器，给容器指定需要加载的bean配置文件
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(beanXml);
         //3.从容器中获取需要的bean
